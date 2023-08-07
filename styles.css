@@ -1,0 +1,38 @@
+
+ body {
+    background-image: url(backimg/ace22.png);
+    background-position: center;
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(183, 236, 225);
+} 
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.grid-heading{
+    grid-column: 2/4;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+    
+.image,.image2{
+    align-items: center;
+}
+    
+.image2{
+    width: 200px;
+    height: 60%;
+}
+
+.image{
+    max-width: 100%;
+    height: auto;
+}
